@@ -7,18 +7,26 @@ body{
 
 /* HEADER */
 
-header{
-    background: rgba(10,10,10,0.9);
-    backdrop-filter: blur(10px);
-    padding: 20px 60px;
+.hero{
+    height: 100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.80)
+    ),
+    url("images/banne1.jpg");
+
+    background-size: cover;
+    background-position: center;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    text-align: center;
+
+    padding: 0 20px;
 }
 
 header h1{
