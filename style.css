@@ -15,7 +15,7 @@ body{
         rgba(0,0,0,0.75),
         rgba(0,0,0,0.80)
     ),
-    url("images/banne1.jpg");
+    url("banne1.jpg");
 
     background-size: cover;
     background-position: center;
@@ -27,6 +27,10 @@ body{
     text-align: center;
 
     padding: 0 20px;
+}
+
+.hero-content{
+    max-width: 850px;
 }
 
 header h1{
@@ -72,31 +76,53 @@ nav a:hover{
 
 .hero h2{
     font-size: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+
+    color: white;
+
+    text-shadow:
+    0 0 10px rgba(0,0,0,0.8),
+    0 0 20px rgba(0,0,0,0.8);
 }
 
 .hero p{
     font-size: 22px;
     line-height: 1.8;
-    color: #d1d1d1;
+
+    color: #d6d6d6;
+
+    text-shadow:
+    0 0 10px rgba(0,0,0,0.8);
 }
 
 /* BOTON */
 
 .btn{
     display: inline-block;
-    margin-top: 30px;
 
-    padding: 15px 35px;
+    margin-top: 35px;
 
     background: #5da9ff;
 
     color: white;
-    text-decoration: none;
+
+    padding: 16px 35px;
 
     border-radius: 10px;
 
+    text-decoration: none;
+
+    font-weight: bold;
+
     transition: 0.3s;
+}
+
+.btn:hover{
+    transform: translateY(-5px);
+
+    background: #79b9ff;
+
+    box-shadow: 0 0 20px #5da9ff;
 }
 
 .btn:hover{
