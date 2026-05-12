@@ -34,7 +34,7 @@ header{
         rgba(0,0,0,0.65),
         rgba(0,0,0,0.75)
     ),
-    url("./banne1.png");
+    url("banne1.png");
 
     background-size: cover;
     background-position: center;
@@ -73,23 +73,27 @@ nav a:hover{
 /* HERO */
 
 .hero{
-    height: 100vh;
+    min-height: 100vh;
 
     background:
-    linear-gradient(rgba(0,0,0,0.7),
-    rgba(0,0,0,0.8)),
-    url("./banner1.png");
+    linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.75)
+    ),
+    url("banne1.png");
 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     text-align: center;
-}
 
+    padding: 0 20px;
+}
 .overlay{
     max-width: 800px;
 }
